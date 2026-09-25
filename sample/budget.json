@@ -4,7 +4,7 @@
   "now": 10,
   "budget": 3,
   "recover_after": 2,
-  "state": {"level": 1, "errors": 2},
+  "state": {"level": 1, "errors": 2, "recover_after": 2, "degrade_actions": ["reduce_batch", "skip_cache"]},
   "events": [
     {"id": "e0", "ok": true, "at": 7},
     {"id": "e1", "ok": false, "at": 8},
